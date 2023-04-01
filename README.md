@@ -6,4 +6,4 @@
 .  
 或[邮件我](mailto:yanchu17@outlook.com)  
 .  
-或等待完全完成后上传ZIP至[Release Tag](https://github.com/chenglun11/CPP_0311/releases)  
+或至[Release Tag](https://github.com/chenglun11/CPP_0311/releases)  
