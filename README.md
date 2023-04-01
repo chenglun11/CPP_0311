@@ -4,4 +4,4 @@
 .
 若您不了解Github如何使用，我想您可以直接点击主页的 **CODE -> DOWNLOAD ZIP 下载源文件**  
 .
-或[邮件我](mailme:yanchu17@outlook.com)  
+或[邮件我](mailto:yanchu17@outlook.com)  
