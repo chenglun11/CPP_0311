@@ -1,10 +1,11 @@
-//å†™ä¸€å‡½æ•°ï¼Œæ±‚ä¸€ä¸ªå­—ç¬¦ä¸²çš„é•¿åº¦ã€‚åœ¨mainå‡½æ•°ä¸­è¾“å…¥å­—ç¬¦ä¸²ï¼Œå¹¶è¾“å‡ºå…¶é•¿åº¦ã€‚
+//Ð´Ò»º¯Êý£¬ÇóÒ»¸ö×Ö·û´®µÄ³¤¶È¡£ÔÚmainº¯ÊýÖÐÊäÈë×Ö·û´®£¬²¢Êä³öÆä³¤¶È¡£
 #include <iostream>
 using namespace std;
 int len(char *q);
 int main() {
     char str[100];
     int count;
+    cout<<"ÊäÈë×Ö·û´®"<<endl;
     cin>>str;
     count = len(str);
     cout << count <<endl;

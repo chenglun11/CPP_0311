@@ -4,6 +4,7 @@ void gotbaha(int);
 int prime(int);
 int main() {
     int target;
+    cout<<"input:";
     cin >> target;
     if (target < 6 || target % 2 != 0)
         cout << "input error" << endl;
