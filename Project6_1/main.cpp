@@ -9,15 +9,16 @@ class Complex
 public:
     Complex(){real=0;imag=0;}
     Complex(double r,double i){real=r;imag=i;}
-    Complex operator+(Complex &c2);
     void display();
+    double GetReal();
+    double GetImag();
 private:
     double real;
     double imag;
 };
-Complex Complex::operator+(Complex &c2)
+Complex operator+(Complex c1,Complex c2)
 {
-    return Complex(c2.real+real,c2.imag+imag);
+    return Complex(c2.real+c1.real,c2.imag+c1.imag); ／
 }
 
 void Complex::display()
