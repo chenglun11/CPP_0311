@@ -10,15 +10,15 @@ public:
     Complex(){real=0;imag=0;}
     Complex(double r,double i){real=r;imag=i;}
     void display();
-    double GetReal();
-    double GetImag();
+    double GetReal(){return real;};
+    double GetImag(){return imag;};
 private:
     double real;
     double imag;
 };
 Complex operator+(Complex c1,Complex c2)
 {
-    return Complex(c2.real+c1.real,c2.imag+c1.imag); ／
+    return Complex(c2.GetReal()+c1.GetReal(),c2.GetImag()+c1.GetImag());
 }
 
 void Complex::display()
