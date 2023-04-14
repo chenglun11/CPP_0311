@@ -35,15 +35,15 @@ Complex Complex::operator-(Complex &c1) {
 
 Complex Complex::operator*(Complex &c1) {
     Complex c;
-    c.real = c1.real * this->real;
-    c.imag = c1.imag * this->imag;
+    c.real = real*c1.real-imag*c1.imag;
+    c.imag = imag*c2.real+real*c2.imag;
     return c;
 }
 
 Complex Complex::operator/(Complex &c1) {
     Complex c;
-    c.real = c1.real / this->real;
-    c.imag = c1.imag / this->imag;
+    c.real = (real*c1.real+imag*c1.imag)/(c1.real*c1.real+c1.imag*c1.imag);
+    c.imag = (imag*c1.real-real*c1.imag)/(c1.real*c1.real+c1.imag*c1.imag);
     return c;
 }
 
