@@ -1,9 +1,7 @@
 # _0311
  
-请注意，您点击下载的同时即代表您了解并同意Github的 [隐私政策](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)和LCHNAN Group的 [隐私政策](https://lchnan.cn/zh/privacy.html)  
+请注意，您打开本项目的同时即代表您了解并同意Github的 [隐私政策](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)和LCHNAN Group的 [隐私政策](https://lchnan.cn/zh/privacy.html)  
 .  
-若您不了解Github如何使用，我想您可以直接点击主页的 **CODE -> DOWNLOAD ZIP 下载源文件**  
+若您不了解Github如何使用，直接点击 
 .  
-或[邮件我](mailto:yanchu17@outlook.com)  
-.  
-或至[Release Tag](https://github.com/chenglun11/CPP_0311/releases)  
+[Release Tag](https://github.com/chenglun11/CPP_0311/releases)  
